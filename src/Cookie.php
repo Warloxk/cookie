@@ -31,7 +31,8 @@ class Cookie
 
 	public static function Get($key, $returnValueIfNotExists = null)
 	{
-		if (array_key_exists($key, $_COOKIE)) {
+		if (array_key_exists($key, $_COOKIE))
+		{
 			return $_COOKIE[$key];
 		}
 
@@ -40,7 +41,8 @@ class Cookie
 
 	public static function Delete($key)
 	{
-		if (array_key_exists($key, $_COOKIE)) {
+		if (array_key_exists($key, $_COOKIE))
+		{
 			setcookie(
 				$key,
 				null,
