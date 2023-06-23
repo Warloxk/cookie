@@ -1,0 +1,23 @@
+{
+  "name": "warloxk/cookie",
+  "description": "Cookie manager library",
+  "type": "library",
+  "keywords": ["php", "cookie"],
+  "homepage": "https://github.com/Warloxk/cookie",
+  "license": "GPL-3.0-or-later",
+  "authors": [
+    {
+      "name" : "Peter Blaho",
+      "homepage": "https://peterblaho.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=7.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Warloxk\\": "src/"
+    }
+  }
+}
