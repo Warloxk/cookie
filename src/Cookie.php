@@ -1,6 +1,13 @@
 <?php
-namespace Warloxk;
-
+/**
+ * Project: Warloxk/Cookie
+ * Version: 0.1
+ * Author: Peter Blaho
+ * Homepage: https://github.com/Warloxk/cookie
+ * Email: info@peterblaho.com
+ * License: GNU General Public License (GPL) version 3
+ * License URI: https://www.gnu.org/licenses/gpl-3.0.html
+ */
 class Cookie
 {
 	private static $domain;
